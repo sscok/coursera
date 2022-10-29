@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><title>CSV File Download</title></head>
+    <body>
+        <h3>Output File</h3>
+        <ul>
+            <li>Please click on the file.
+                <ul>
+                    <li>
+                        <a href="{% url 'output' %}">courses.csv</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="{% url 'select' %}">Return back to select again.</a>
+            </li>
+            <br>
+        </ul>
+        {{csv_data}}
+        {% if csv_data %}
+        sad
+            {{csv_data}}
+        {% endif %}
+    </body>
+</html>

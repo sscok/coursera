@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "${workspaceRoot}/.venv/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.formatting.autopep8Path": "${workspaceRoot}/.venv/bin/autopep8",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__/": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/.venv": true,
+        "**/.venv3": true,
+        "**/tmp": true
+    }
+}
